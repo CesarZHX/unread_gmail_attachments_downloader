@@ -36,6 +36,7 @@ python main.py
 ├── .attachments        # Auto-generated directory where email attachments are stored
 ├── main.py             # Main script
 ├── pyproject.toml      # Project configuration for dependency management
+├── activity.drawio     # Diagram illustrating activity flow
 └── README.md           # This file
 ```
 
