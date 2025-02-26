@@ -8,7 +8,10 @@ from ezgmail import init, unread  # type: ignore
 FILE_PATH = Path(__file__)
 PARENT_PATH = FILE_PATH.parent
 
-CREDENTIALS_JSON_FILE_PATH = next(PARENT_PATH.glob("client_secret*.json"))
+CREDENTIALS_JSON_FILE_PATH = next(
+    PARENT_PATH.glob("client_secret*.json"),
+    PARENT_PATH / "client_secret.json"
+)
 TOKEN_JSON_FILE_PATH = PARENT_PATH / "token.json"
 ATTACHMENTS_DIR = PARENT_PATH / ".attachments"
 

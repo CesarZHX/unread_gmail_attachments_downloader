@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=62.6"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unread_gmail_attachments_downloader"
+version = "0.1.0"
+description = "A script to download unread Gmail attachments automatically."
+authors = [{name = "Cesar Albornoz", email = "112836949+CesarZHX@users.noreply.github.com"}]
+readme = "README.md"
+license = { file = "LICENSE" }
+dependencies = ["ezgmail>=2024.12.3"]
+requires-python = ">=3.12"
